@@ -35,6 +35,12 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'arnaud-lb/vim-php-namespace'
 "" space + sh -> vimshell
 Plug 'Shougo/vimshell.vim'
+"phpcd
+"Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
+"coc.vim
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+"閉じタグ
+Plug 'cohama/lexima.vim'
 call plug#end()
 filetype plugin indent on
 let mapleader="\<Space>"
