@@ -88,6 +88,7 @@ highlight Pmenu ctermbg=233 ctermfg=241
 highlight PmenuSel ctermbg=233 ctermfg=166
 highlight Search ctermbg=166 ctermfg=233
 highlight Visual ctermbg=166 ctermfg=233
+inoremap <silent> jj <ESC>
 
 "" vim-airline
 let g:airline_theme = 'powerlineish'
