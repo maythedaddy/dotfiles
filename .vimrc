@@ -37,6 +37,8 @@ Plug 'arnaud-lb/vim-php-namespace'
 Plug 'Shougo/vimshell.vim'
 "閉じタグ
 Plug 'cohama/lexima.vim'
+"クォーテーション補完
+Plug 'Townk/vim-autoclose'
 call plug#end()
 filetype plugin indent on
 let mapleader="\<Space>"
@@ -51,7 +53,7 @@ set ttyfast
 set backspace=indent,eol,start
 set tabstop=4
 set softtabstop=0
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 set splitright
 set splitbelow
@@ -85,6 +87,7 @@ highlight PmenuSel ctermbg=233 ctermfg=166
 highlight Search ctermbg=166 ctermfg=233
 highlight Visual ctermbg=166 ctermfg=233
 inoremap <silent> jj <ESC>
+set smartindent
 
 "" vim-airline
 let g:airline_theme = 'powerlineish'
