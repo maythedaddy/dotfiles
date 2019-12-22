@@ -1,0 +1,39 @@
+{
+  "ruby.lint": {
+    "reek": false,
+    "rubocop": true,
+    "ruby": false,
+    "fasterer": false,
+    "debride": false,
+    "ruby-lint": false
+  },
+  "files.autoSave": "off",
+  "editor.minimap.enabled": true,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "editor.formatOnSave": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "editor.fontSize": 16,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "editor.wordWrap": "on",
+  "go.buildOnSave": "package",
+  "go.docsTool": "godoc",
+  "go.formatTool": "goreturns",
+  "go.gocodePackageLookupMode": "go",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "scm.alwaysShowActions": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "python.jediEnabled": false,
+  "terminal.integrated.inheritEnv": false
+}
