@@ -1,0 +1,40 @@
+{
+    "ruby.lint": {
+        "rubocop": true
+    },
+    "editor.fontSize": 17,
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Menlo",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "terminal.integrated.fontSize": 19,
+    "editor.minimap.enabled": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.formatOnSave": false,
+
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#333333",
+        "statusBar.noFolderBackground": "#333333",
+        "statusBar.debuggingBackground": "#263238"
+    },
+
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "editor.wordWrap": "on",
+
+
+    "files.autoSave": "off",
+    "go.gocodeAutoBuild": true,
+    "go.gopath": "/Users/apple/go",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.renderWhitespace": "boundary",
+    // "[yaml]": {
+    //     "editor.defaultFormatter": "redhat.vscode-yaml"
+    // },
+
+
+}
+
